@@ -153,6 +153,12 @@ import {
   Sidebar,
   SidebarItem
 } from 'vant'
+
+import {
+  Search
+} from 'vant';
+
+Vue.use(Search);
 Vue.use(Tabbar).use(TabbarItem)
 Vue.use(Loading)
 Vue.use(Grid).use(GridItem)

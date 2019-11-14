@@ -28,32 +28,22 @@
 </template>
 
 <script>
-// 这里导入的方法直接用，不需要用this
-import { getHomeApi } from '@/serve/api/index'
 export default {
   components: {},
   props: {},
-  mounted () {
-    this.getHomeAllData()
-  },
-  data () {
+  mounted() {},
+  data() {
     return {
       active: 0
-    }
+    };
   },
-  methods: {
-    async getHomeAllData () {
-      const data = await getHomeApi()
-      console.log(data)
-    }
-  }
-}
+  methods: {}
+};
 </script>
 <style scoped lang="less">
 .dashboard {
   height: 100%;
   .van-tabbar {
-    height: 55px;
     .van-tabbar-item {
       text-align: center;
       .van-tabbar-item__icon {
