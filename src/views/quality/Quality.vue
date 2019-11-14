@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-
-  </div>
+  <div class="yummy"></div>
 </template>
 
 <script>
@@ -14,11 +12,8 @@ export default {
 }
 </script>
 <style scoped lang="less">
-.home {
+.yummy {
   height: 100%;
-  background-color: #eee;
-  h1 {
-    font-size: 17px;
-  }
+  background-color: gold;
 }
 </style>

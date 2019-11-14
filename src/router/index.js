@@ -12,14 +12,31 @@ const routes = [{
   path: '/dashboard',
   name: 'dashboard',
   component: () => import('../views/dashboard/DashBoard.vue'),
-  children: [{
-    path: '/dashboard',
-    redirect: '/dashboard/home'
-  },
-  {
-    path: 'home',
-    component: () => import('./../views/home/Home.vue')
-  }
+  children: [
+    {
+      path: '/dashboard',
+      redirect: '/dashboard/home'
+    },
+    {
+      path: 'home',
+      component: () => import('./../views/home/Home.vue')
+    },
+    {
+      path: 'category',
+      component: () => import('./../views/category/Category.vue')
+    },
+    {
+      path: 'cart',
+      component: () => import('./../views/cart/Cart.vue')
+    },
+    {
+      path: 'quality',
+      component: () => import('./../views/quality/Quality.vue')
+    },
+    {
+      path: 'mine',
+      component: () => import('./../views/mine/Mine.vue')
+    }
   ]
 }
 ]

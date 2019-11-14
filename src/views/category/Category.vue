@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-
-  </div>
+  <div class="category"></div>
 </template>
 
 <script>
@@ -14,11 +12,8 @@ export default {
 }
 </script>
 <style scoped lang="less">
-.home {
-  height: 100%;
-  background-color: #eee;
-  h1 {
-    font-size: 17px;
-  }
+.category {
+    height: 100%;
+    background-color:orangered;
 }
 </style>
