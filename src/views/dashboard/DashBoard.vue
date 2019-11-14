@@ -1,12 +1,15 @@
 <template>
-  <div class="app">
-    <router-view></router-view>
+  <div class="dashboard">
+    <Home />
   </div>
 </template>
 
 <script>
+import Home from './../home/Home'
 export default {
-  components: {},
+  components: {
+    Home
+  },
   props: {},
   data () {
     return {}
@@ -14,7 +17,7 @@ export default {
 }
 </script>
 <style scoped lang="less">
-.app {
+.dashboard {
   height: 100%;
 }
 </style>
