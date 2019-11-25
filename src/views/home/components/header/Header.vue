@@ -24,6 +24,11 @@ export default {
 </script>
 <style scoped lang="less">
 .top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   background-image: url("http://518taole.7-orange.cn/backImage.png");
   .van-search {
     padding: 6px;

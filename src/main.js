@@ -11,7 +11,10 @@ import 'swiper/dist/css/swiper.css'
 Vue.use(VueAwesomeSwiper, /* { default global options } */ )
 // 导入需要的组件
 import './plugins/vant'
-import './config/rem.js'
+// 导入响应式rem
+import './config/rem'
+// 导入全局过滤器
+import './config/filter'
 Vue.config.productionTip = false
 
 new Vue({

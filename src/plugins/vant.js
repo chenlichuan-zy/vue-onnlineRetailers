@@ -158,6 +158,15 @@ import {
   Search
 } from 'vant';
 
+import {
+  Skeleton
+} from 'vant';
+import {
+  Card
+} from 'vant';
+
+Vue.use(Card);
+Vue.use(Skeleton);
 Vue.use(Search);
 Vue.use(Tabbar).use(TabbarItem)
 Vue.use(Loading)
